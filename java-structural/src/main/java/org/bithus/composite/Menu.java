@@ -27,11 +27,13 @@ public class Menu extends MenuComponent {
         return builder.toString();
     }
 
+    @Override
     public MenuComponent add(MenuComponent menuComponent) {
         menuComponents.add(menuComponent);
         return menuComponent;
     }
 
+    @Override
     public MenuComponent remove(MenuComponent menuComponent) {
         menuComponents.remove(menuComponent);
         return menuComponent;
