@@ -11,6 +11,7 @@
     <modules>
         <module>java-creational</module>
         <module>java-structural</module>
+        <module>java-behavioral</module>
     </modules>
 
     <dependencies>
