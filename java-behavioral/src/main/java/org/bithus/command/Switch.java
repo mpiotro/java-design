@@ -7,7 +7,7 @@ package org.bithus.command;
 //invoker
 public class Switch {
 
-    public void sotoreAndExecute(Command command) {
+    public void storeAndExecute(Command command) {
         command.execute();
     }
 
