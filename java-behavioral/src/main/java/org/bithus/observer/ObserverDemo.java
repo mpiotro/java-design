@@ -13,6 +13,7 @@ public class ObserverDemo {
         TabletClient tabletClient = new TabletClient(subject);
 
         phoneClient.addMessage("Here is a new message");
+        tabletClient.addMessage("Another message");
 
     }
 
