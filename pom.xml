@@ -12,6 +12,7 @@
         <module>java-creational</module>
         <module>java-structural</module>
         <module>java-behavioral</module>
+        <module>java-core</module>
     </modules>
 
     <dependencies>
@@ -20,8 +21,11 @@
             <artifactId>twitter4j-core</artifactId>
             <version>[4.0,)</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
     </dependencies>
-
-
 
 </project>

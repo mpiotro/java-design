@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by michal on 30.06.16.
  */
-public class AtvPartShippingvisitor implements AtvPartVisitor {
+public class AtvPartShippingVisitor implements AtvPartVisitor {
 
     double shippingAmount = 0;
 

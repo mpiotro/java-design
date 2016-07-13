@@ -11,8 +11,10 @@ public class VisitorDemo {
         order.addPart(new Wheel());
         order.addPart(new Fender());
         order.addPart(new Oil());
-        
-        order.accept(new AtvPartShippingvisitor());
+
+        order.accept(new AtvPartShippingVisitor());
+        order.accept(new AtvPartDiplayVisitor());
+
 
     }
 
